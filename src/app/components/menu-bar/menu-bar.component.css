@@ -21,3 +21,26 @@
   margin: auto;
   align-items: center;
 }
+
+
+.menu-bar-items ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-bar-items ul li {
+  padding: 5px;
+  margin-right: 15px;
+}
+
+.menu-bar-items ul li a {
+  text-decoration: none;
+  color: rgb(7, 7, 7);
+  padding: 5px;
+  font-family: 'Segoe UI';
+}
+
+.menu-bar-items ul li a:hover {
+  color: blue;
+  font-weight: 600;
+}
